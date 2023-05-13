@@ -19,7 +19,7 @@ The simulation is written in Matlab within the file entitled `Simulation_v07.m`.
 After the class presentation, an attempt to create a solid circular boundary for the cells to bounce off of lead to many issues. An adjustment to the location of the hemisphere had to be made to allow for easier calculations. The collision between the cell and hemisphere was done by calculating the particle's radius at each position using the Pythagorean Theorem. If the radius was greater than or equal to the radius of the petri dish, the code altered the rest of the particle's position to simulate a collision. The bottom half of the hemisphere was also treated as a solid wall and flipped the particle's position if a collision was detected. There are still issues with the collision detection at the top of the hemisphere. 
 
 
-# ReadMe is adapted from this previous project
+# ReadMe is adapted from peer's previous project
 # Final Project for PHYS-230/BIOE-230
 
 ## Contents
